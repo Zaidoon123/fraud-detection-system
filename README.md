@@ -23,6 +23,10 @@ Credit card fraud is a major challenge for financial institutions. With highly i
 | Normal (0) | 284,315 | 99.83% |
 | Fraud (1) | 492 | 0.17% |
 
+
+> ⚠️ Dataset not included due to size (143MB)
+> Download from: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+> Place `creditcard.csv` in the root folder before running
 ---
 
 ## 🔍 Key Findings from EDA
