@@ -96,35 +96,24 @@ With 99.83% normal transactions, a model predicting everything as normal achieve
 ## 🚀 How to Run
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/fraud-detection
-cd fraud-detection
-```
+git clone https://github.com/Zaidoon123/fraud-detection-system
+cd fraud-detection-system
 
 ### 2. Install dependencies
-```bash
 pip install -r requirements.txt
-```
 
-### 3. Run the Flask API
-```bash
+### 3. Download the dataset
+Download from: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+Place creditcard.csv in the root folder
+
+### 4. Run the notebook
+Open Fraud_Detection_System_Project_.ipynb in Jupyter/Colab
+
+### 5. Run the Flask API
 python app.py
-```
 
-### 4. Test the API
-```powershell
+### 6. Test the API
 Invoke-WebRequest -Uri "http://127.0.0.1:5000/predict" -Method POST -ContentType "application/json" -Body '{"features": [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]}'
-```
-
-### Example Response:
-```json
-{
-  "fraud_probability": 0.87,
-  "prediction": "FRAUD"
-}
-```
-
----
 
 ## 📁 Project Structure
 ```
